@@ -1,0 +1,44 @@
+
+h1 {
+  font-family: arial;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
+h2 {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+div.enter-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+  input[type=text] {
+    border-style: solid;
+    outline: none;
+    border-radius: 5px;
+    border-color: #E35349;
+    font-family: arial;
+    font-weight: lighter;
+    margin: 10px;
+    width: 50%;
+    height: 20%;
+  }
+  input[type=submit] {
+    font-weight: lighter;
+    background-color: #E35349;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 30%;
+  }
+    input[type=submit]:hover {
+      opacity: 0.5;
+    }
